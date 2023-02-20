@@ -1,0 +1,28 @@
+body{
+    overflow-y:hidden;
+    margin:0;
+    padding: 0;
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(29, 29, 29);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+  border: 3px solid #80508d;
+}
