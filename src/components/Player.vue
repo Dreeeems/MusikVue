@@ -110,7 +110,7 @@ function addFav() {
   </div>
 </template>
 
-<style>
+<style scoped>
 .player {
   height: 10vh;
   width: 100%;

@@ -102,7 +102,7 @@ onMounted(() => {
 
 @media screen and (max-width: 1700px) {
   .container {
-    height: 78.2vh;
+    height: 80vh;
   }
 
   .playerIcons svg {
@@ -128,7 +128,7 @@ onMounted(() => {
 }
 @media screen and (max-width: 1250px) {
   .container {
-    height: 78vh;
+    height: 80vh;
   }
 }
 @media screen and (max-width: 950px) {
@@ -139,12 +139,12 @@ onMounted(() => {
     margin-top: -60px;
   }
   .container {
-    height: 77vh;
+    height: 80vh;
   }
 }
 @media screen and (max-width: 776px) {
   .container {
-    height: 76vh;
+    height: 79vh;
   }
   .time {
     display: flex;
@@ -158,21 +158,21 @@ onMounted(() => {
 @media screen and (max-width: 767px) {
   .container {
     padding-left: 0%;
-    height: 68vh;
+    height: 72vh;
   }
 }
 
 @media screen and (max-width: 650px) {
   .container {
     padding-left: 0%;
-    height: 66.5vh;
+    height: 72vh;
   }
 }
 
 @media screen and (max-width: 530px) {
   .container {
     padding-left: 0%;
-    height: 65.5vh;
+    height: 72vh;
   }
 
   @media screen and (max-width: 430px) {
@@ -184,19 +184,13 @@ onMounted(() => {
   }
   @media screen and (max-width: 350px) {
     .container {
-      height: 64vh;
+      height: 70vh;
+    }
+    .time{
+      display: flex;
+      flex-wrap: nowrap;
     }
   }
 }
 
-@media screen and (max-height: 900px) {
-  .container {
-    height: 68.5vh;
-  }
-}
-@media screen and (max-height: 670px) {
-  .container {
-    height: 61vh;
-  }
-}
 </style>

@@ -67,7 +67,7 @@ function paused() {
 </script>
 
 <template>
-  <div class="player">
+  <div class="player d-flex">
     <div class="playerInfos">
       <div class="playerImg">
         <img :src="props.track?.album?.cover" />
@@ -109,55 +109,16 @@ function paused() {
   </div>
 </template>
 
-<style>
-.player {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  background-color: #3a3737;
-}
-.playerInfos {
-  color: white;
-  display: flex;
-}
+<style scoped>
 
-.playerNames {
-  display: grid;
-  align-items: center;
-  margin: 0 14px;
-  justify-items: start;
-  align-content: center;
-}
-.playerImg {
-  padding: 5px;
-  display: flex;
-}
-.playerImg img {
-  width: 8vh;
-  height: 8vh;
-}
-.playerLeftIcons {
-  display: flex;
-  align-items: center;
-}
-.time {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.progress {
-  color: #fff;
-  width: 50%;
-}
-
-.playerIcons {
-  padding: 5px;
-}
 .fav {
   color: red;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 876px) {
+  .playerNames {
+    font-size: 12px;
+  }
 }
 </style>
