@@ -56,7 +56,7 @@ const goToAccount = () => {
   </div>
 </template>
 
-<style>
+<style scoped>
 .mainLog {
   margin: 0;
   padding: 0;
